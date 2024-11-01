@@ -1,0 +1,901 @@
+.title {
+    color: #4c40b6;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1
+}
+
+.header-nav {
+    position: relative
+}
+
+.header-navitem-text {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    text-transform: uppercase
+}
+
+.header-navitem:not(:last-child) {
+    margin-right: 64px
+}
+
+.icon.-header-navitem,.icon.-header.-menu,.overlay.-header {
+    display: none
+}
+
+@media screen and (min-width: 1800px) {
+    .header {
+        padding:0 20%
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .header {
+        position:relative;
+        height: 96px
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header-nav {
+        position:absolute;
+        top: 72px;
+        right: 10%;
+        z-index: 1;
+        padding: 12px 0;
+        border-radius: 12px;
+        background: #fff;
+        box-shadow: 0 8px 8px rgba(130,136,148,.16),0 0 4px rgba(130,136,148,.16),0 0 2px rgba(130,136,148,.08)
+    }
+
+    .header-nav:not(.-visible) {
+        display: none
+    }
+
+    .header-navitem {
+        display: flex;
+        align-items: center;
+        width: 192px;
+        padding: 10px 24px
+    }
+
+    .header-navitem:hover {
+        background: #f0f0f5
+    }
+
+    .header-navitem:hover .header-navitem-text {
+        font-weight: 700;
+        letter-spacing: .1px
+    }
+
+    .header-navitem-text {
+        color: #525865;
+        font-weight: 400;
+        text-transform: none;
+        line-height: 1
+    }
+
+    .header-navitem:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 6px
+    }
+
+    .icon.-header-navitem {
+        display: block;
+        margin-right: 12px
+    }
+
+    .icon.-header-navitem.material-icons {
+        color: #5c2e7d
+    }
+
+    .icon.-header-navitem.-discord {
+        width: 24px;
+        height: 24px;
+        fill: #6b75ff
+    }
+
+    .icon.-header.-menu {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 1
+    }
+
+    .overlay.-header {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0
+    }
+}
+
+.page.-home {
+    position: relative;
+    min-height: 100vh
+}
+
+.page.-home .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%
+}
+
+.page.-home .content-text {
+    margin-top: 64px;
+    padding-right: 48px
+}
+
+.page.-home .content-badge {
+    display: inline-block;
+    color: #fc75cd;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 4px 6px;
+    margin-bottom: 16px;
+    background: rgba(252,117,205,.2)
+}
+
+.page.-home .prompt {
+    color: #333;
+    font-family: Montserrat,sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 72px;
+    margin-bottom: 32px
+}
+
+.page.-home .content-subtext {
+    color: #8d8d94;
+    font-size: 18px;
+    line-height: 31px
+}
+
+.page.-home .options {
+    display: flex;
+    flex-wrap: nowrap
+}
+
+.page.-home .option {
+    padding: 24px 16px;
+    border-radius: 20px;
+    background: #fff;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0 0 1px rgba(130,136,148,.16),0 2px 4px rgba(130,136,148,.16);
+    transition: transform .25s,box-shadow .25s
+}
+
+.page.-home .option:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 1px rgba(130,136,148,.5),0 2px 4px rgba(130,136,148,.5)
+}
+
+.page.-home .option:not(:last-child) {
+    margin-right: 24px
+}
+
+.page.-home .option-image {
+    display: block;
+    margin-bottom: 4px
+}
+
+.page.-home .option-badge {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-bottom: 12px
+}
+
+.page.-home .option-text {
+    width: 180px;
+    font-size: 24px;
+    margin: 0 auto 16px
+}
+
+.page.-home .option-text strong {
+    font-weight: inherit
+}
+
+.page.-home .option.-pc .option-badge {
+    background: #6b75ff
+}
+
+.page.-home .option.-pc .option-text strong {
+    color: #6b75ff
+}
+
+.page.-home .option.-pe .option-badge {
+    background: #fc75cd
+}
+
+.page.-home .option.-pe .option-text strong {
+    color: #fc75cd
+}
+
+@media screen and (min-width: 1800px) {
+    .page.-home .content {
+        padding:0 20%
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .page.-home .prompt {
+        font-size:48px;
+        line-height: normal;
+        margin-bottom: 16px
+    }
+
+    .page.-home .content-subtext {
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 32px
+    }
+
+    .page.-home .option-text {
+        width: 140px;
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .page.-home .option-image {
+        width:200px
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .page.-home .content {
+        position:relative;
+        top: unset;
+        transform: unset;
+        display: block;
+        padding-bottom: 64px
+    }
+
+    .page.-home .content-text {
+        max-width: 480px
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .page.-home .content-text {
+        margin-top:16px;
+        padding: 0
+    }
+
+    .page.-home .options {
+        display: block
+    }
+
+    .page.-home .option {
+        display: flex;
+        align-items: center;
+        padding: 8px 24px 8px 12px
+    }
+
+    .page.-home .option:not(:last-child) {
+        margin-bottom: 16px;
+        margin-right: 0
+    }
+
+    .page.-home .option-content {
+        text-align: left
+    }
+
+    .page.-home .option-image {
+        width: 140px;
+        margin-right: 4px
+    }
+
+    .page.-home .option-text {
+        margin: 0;
+        width: auto;
+        max-width: 160px
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .page.-home .content-badge {
+        margin-bottom:12px
+    }
+
+    .page.-home .prompt {
+        font-size: 32px;
+        margin-bottom: 8px
+    }
+
+    .page.-home .content-subtext {
+        font-size: 12px;
+        line-height: 24px
+    }
+
+    .page.-home .option-image {
+        width: 120px
+    }
+
+    .page.-home .option-text {
+        font-size: 14px
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .page.-home .option-image {
+        width:100px
+    }
+
+    .page.-home .option-badge {
+        margin-bottom: 6px
+    }
+}
+
+.page.-howto {
+    text-align: center;
+    padding-bottom: 48px;
+    padding-top: 152px
+}
+
+.page.-howto .page-title {
+    line-height: 72px;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 24px
+}
+
+.page.-howto .badge {
+    display: inline-block;
+    margin-bottom: 4px;
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.page.-howto .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.page.-howto .step {
+    position: relative;
+    display: flex;
+    align-items: center
+}
+
+.page.-howto .step:not(:last-child) {
+    margin-bottom: 72px
+}
+
+.page.-howto .step-content {
+    position: relative;
+    width: 520px;
+    padding: 64px 32px 32px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column
+}
+
+.page.-howto .step-badge {
+    position: absolute;
+    background: #fff;
+    top: 0;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-transform: uppercase;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+
+.page.-howto .step-title {
+    color: #333;
+    line-height: 1.345;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 6px
+}
+
+.page.-howto .step-text {
+    font-size: 12px;
+    line-height: 1.675
+}
+
+.page.-howto .step-text:not(:last-child) {
+    margin-bottom: 24px
+}
+
+.page.-howto .link,.page.-howto .step-text a {
+    font-weight: 700;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    -webkit-text-decoration-style: dotted;
+    text-decoration-style: dotted
+}
+
+.page.-howto .button.-step {
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    width: 180px;
+    border-radius: 3px;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 600
+}
+
+.page.-howto .step-image {
+    position: relative
+}
+
+.page.-howto .step:nth-child(odd) {
+    text-align: right
+}
+
+.page.-howto .step:nth-child(odd) .step-content {
+    padding-right: 96px;
+    align-items: flex-end
+}
+
+.page.-howto .step:nth-child(odd) .step-badge {
+    right: 96px
+}
+
+.page.-howto .step:nth-child(odd) .step-image {
+    right: 72px;
+    margin-right: -72px
+}
+
+.page.-howto .step:nth-child(2n) {
+    text-align: left;
+    flex-direction: row-reverse
+}
+
+.page.-howto .step:nth-child(2n) .step-content {
+    padding-left: 96px;
+    align-items: flex-start
+}
+
+.page.-howto .step:nth-child(2n) .step-badge {
+    left: 96px
+}
+
+.page.-howto .step:nth-child(2n) .step-image {
+    left: 72px;
+    margin-left: -72px
+}
+
+.page.-howto .action {
+    width: 100px;
+    margin: 48px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.page.-howto .icon.-action {
+    margin-right: 20px
+}
+
+.page.-howto .action-text {
+    font-weight: 600;
+    font-size: 12px
+}
+
+@media screen and (max-width: 920px) {
+    .page.-howto {
+        padding-top:112px
+    }
+
+    .page.-howto .badge {
+        font-size: 12px;
+        margin-bottom: 16px
+    }
+
+    .page.-howto .page-title {
+        font-size: 24px;
+        line-height: unset;
+        margin-bottom: 36px
+    }
+
+    .page.-howto .step {
+        width: 80vw;
+        text-align: center!important;
+        flex-direction: column-reverse!important
+    }
+
+    .page.-howto .step:not(:last-child) {
+        margin-bottom: 42px
+    }
+
+    .page.-howto .step-badge {
+        left: unset!important;
+        right: unset!important;
+        margin: 32px auto 0
+    }
+
+    .page.-howto .step-title {
+        font-size: 16px
+    }
+
+    .page.-howto .step-content {
+        font-size: 12px;
+        width: 100%;
+        align-items: center!important;
+        padding: 86px 24px 32px!important;
+        margin-top: -32px
+    }
+
+    .page.-howto .step-image {
+        left: unset!important;
+        right: unset!important;
+        margin: 0!important
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .page.-howto {
+        padding-top:0
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .page.-howto .page-title {
+        font-size:18px
+    }
+
+    .page.-howto .step:not(:last-child) {
+        margin-bottom: 16px
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .page.-howto .step-content {
+        padding-top:80px!important;
+        padding-bottom: 24px!important
+    }
+
+    .page.-howto .step-text:not(:last-child) {
+        margin-bottom: 16px
+    }
+}
+
+.page.-howto.-pc .badge {
+    color: #240f3e;
+    background: rgba(107,117,255,.24)
+}
+
+.page.-howto.-pc .page-title strong {
+    color: #240f3e
+}
+
+.page.-howto.-pc .step:nth-child(odd) .step-content {
+    color: #240f3e;
+    background: #5c2e7d
+}
+
+.page.-howto.-pc .step:nth-child(odd) .button.-step {
+    background: #240f3e
+}
+
+.page.-howto.-pc .step:nth-child(2n) .step-content {
+    color: #b86f47;
+    background: #f5d988
+}
+
+.page.-howto.-pc .step:nth-child(2n) .button.-step {
+    background: #edcb69
+}
+
+.page.-howto.-pc .step-image {
+    width: 480px;
+    height: 294px;
+    overflow: hidden;
+    background: #000;
+    background-position: center 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px
+}
+
+.page.-howto.-pc .step-image:before {
+    content: "";
+    display: block;
+    width: 480px;
+    height: 24px;
+    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
+    background-size: contain
+}
+
+@media screen and (max-width: 920px) {
+    .page.-howto.-pc .step-image {
+        width:80vw;
+        height: 49vw;
+        background-position: center 4vw
+    }
+
+    .page.-howto.-pc .step-image:before {
+        width: 80vw;
+        height: 4vw;
+        background-size: 80vw 4vw
+    }
+}
+
+.no-webp .-pc .step-image.-download {
+    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.de3c2a44.png)!important
+}
+
+.no-webp .-pc .step-image.-launch {
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-launch.fad711a8.png)!important
+}
+
+.no-webp .-pc .step-image.-config {
+    background-image: url(https://i.ibb.co/mS7jBqz/myteria1-ip.png)!important
+}
+
+.no-webp .-pc .step-image.-server {
+    background-image: url(https://i.ibb.co/F3Vj25c/myteria2.png)!important
+}
+
+.supports-webp .-pc .step-image.-download {
+    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.e6398d4d.webp)!important
+}
+
+.supports-webp .-pc .step-image.-launch {
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-launch.4f2bc02f.webp)!important
+}
+
+.supports-webp .-pc .step-image.-config {
+    background-image: url(https://i.ibb.co/mS7jBqz/myteria1-ip.png)!important
+}
+
+.supports-webp .-pc .step-image.-server {
+    background-image: url(https://i.ibb.co/F3Vj25c/myteria2.png)!important
+}
+
+.page.-howto.-pe .badge {
+    color: #edcb69;
+    background: rgba(252,117,205,.24)
+}
+
+.page.-howto.-pe .page-title strong {
+    color: #edcb69
+}
+
+.page.-howto.-pe .step:nth-child(odd) .step-content {
+    color: #edcb69;
+    background: #f5d988
+}
+
+.page.-howto.-pe .step:nth-child(odd) .button.-step {
+    background: #edcb69
+}
+
+.page.-howto.-pe .step:nth-child(2n) .step-content {
+    color: #6b75ff;
+    background: #d9dbfc
+}
+
+.page.-howto.-pe .step:nth-child(2n) .button.-step {
+    background: #6b75ff
+}
+
+.page.-howto.-pe .step-image {
+    width: 400px;
+    height: 170px;
+    overflow: hidden;
+    background: #333;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 80% 90%;
+    box-sizing: content-box;
+    border-radius: 12px
+}
+
+.page.-howto.-pe .step-image:after,.page.-howto.-pe .step-image:before {
+    content: "";
+    display: block;
+    background: #505050;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.page.-howto.-pe .step-image:before {
+    width: 4px;
+    height: 32px;
+    border-radius: 2px;
+    left: 5%
+}
+
+.page.-howto.-pe .step-image:after {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    left: 95%
+}
+
+@media screen and (max-width: 920px) {
+    .page.-howto.-pe .step-image {
+        width:80vw!important;
+        height: 33vw!important
+    }
+
+    .page.-howto.-pe .step-image:before {
+        width: .75vw;
+        height: 6vw;
+        border-radius: .375vw
+    }
+
+    .page.-howto.-pe .step-image:after {
+        width: 4vw;
+        height: 4vw;
+        border-radius: 2vw
+    }
+}
+
+.no-webp .-pe .step-image.-menu {
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-menu.f457db10.png)!important
+}
+
+.no-webp .-pe .step-image.-servers {
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-servers.0949cb9c.png)!important
+}
+
+.no-webp .-pe .step-image.-config {
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-config.e700d80e.png)!important
+}
+
+.no-webp .-pe .step-image.-server {
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-server.2ef88921.png)!important
+}
+
+.supports-webp .-pe .step-image.-menu {
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-menu.20ac4df5.webp)!important
+}
+
+.supports-webp .-pe .step-image.-servers {
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-servers.b5d5de9a.webp)!important
+}
+
+.supports-webp .-pe .step-image.-config {
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-config.5c1606b7.webp)!important
+}
+
+.supports-webp .-pe .step-image.-server {
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-server.383513f9.webp)!important
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    position: relative
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+a,button {
+    cursor: pointer
+}
+
+button {
+    border: 0;
+    background: transparent
+}
+
+ul {
+    list-style: none
+}
+
+body,html {
+    height: 100%
+}
+
+body {
+    background: #fbfbfb;
+    font-family: Inter,sans-serif
+}
+
+#root {
+    position: relative;
+    min-height: 100vh
+}
+
+.bg {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden
+}
+
+.bg,.blob {
+    position: absolute
+}
+
+.blob.-a {
+    bottom: 0;
+    right: 0
+}
+
+.blob.-b {
+    top: 115px
+}
+
+.blob.-c {
+    top: 85px
+}
+
+.blob.-d {
+    right: 0;
+    top: 668px
+}
+
+.blob.-c,.blob.-d {
+    display: none
+}
+
+@media screen and (max-width: 800px) {
+    .blob.-a,.blob.-b {
+        display:none
+    }
+
+    .blob.-c,.blob.-d {
+        display: block
+    }
+}
+
+/*# sourceMappingURL=main.ed7b51f7.chunk.css.map */
+/*
+     FILE ARCHIVED ON 15:05:59 Jul 17, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:07:51 Sep 03, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.45
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.007
+  esindex: 0.01
+  cdx.remote: 6.839
+  LoadShardBlock: 133.555 (3)
+  PetaboxLoader3.datanode: 86.624 (4)
+  PetaboxLoader3.resolve: 1167.94 (2)
+  load_resource: 1124.891
+*/
