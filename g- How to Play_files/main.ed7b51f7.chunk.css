@@ -104,7 +104,7 @@
     .icon.-header-navitem.-discord {
         width: 24px;
         height: 24px;
-        fill: #6b75ff
+        fill: #5c2e7d
     }
 
     .icon.-header.-menu {
@@ -153,7 +153,7 @@
     text-transform: uppercase;
     padding: 4px 6px;
     margin-bottom: 16px;
-    background: rgba(252,117,205,.2)
+    background: rgba(245,217,13,.2)
 }
 
 .page.-home .prompt {
@@ -223,19 +223,19 @@
 }
 
 .page.-home .option.-pc .option-badge {
-    background: #6b75ff
+    background: #5c2e7d
 }
 
 .page.-home .option.-pc .option-text strong {
-    color: #6b75ff
+    color: #5c2e7d
 }
 
 .page.-home .option.-pe .option-badge {
-    background: #fc75cd
+    background: #f5d988
 }
 
 .page.-home .option.-pe .option-text strong {
-    color: #fc75cd
+    color: #f5d988
 }
 
 @media screen and (min-width: 1800px) {
@@ -588,7 +588,7 @@
 
 .page.-howto.-pc .badge {
     color: #240f3e;
-    background: rgba(107,117,255,.24)
+    background: rgba(36,15,62,.24)
 }
 
 .page.-howto.-pc .page-title strong {
@@ -698,12 +698,12 @@
 }
 
 .page.-howto.-pe .step:nth-child(2n) .step-content {
-    color: #6b75ff;
+    color: #5c2e7d;
     background: #d9dbfc
 }
 
 .page.-howto.-pe .step:nth-child(2n) .button.-step {
-    background: #6b75ff
+    background: #5c2e7d
 }
 
 .page.-howto.-pe .step-image {
