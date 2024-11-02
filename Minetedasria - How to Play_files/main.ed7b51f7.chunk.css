@@ -104,7 +104,7 @@
     .icon.-header-navitem.-discord {
         width: 24px;
         height: 24px;
-        fill: #6b75ff
+        fill: #240f3e
     }
 
     .icon.-header.-menu {
@@ -223,11 +223,11 @@
 }
 
 .page.-home .option.-pc .option-badge {
-    background: #6b75ff
+    background: #240f3e
 }
 
 .page.-home .option.-pc .option-text strong {
-    color: #6b75ff
+    color: #240f3e
 }
 
 .page.-home .option.-pe .option-badge {
@@ -698,12 +698,12 @@
 }
 
 .page.-howto.-pe .step:nth-child(2n) .step-content {
-    color: #6b75ff;
+    color: #240f3e;
     background: #d9dbfc
 }
 
 .page.-howto.-pe .step:nth-child(2n) .button.-step {
-    background: #6b75ff
+    background: #240f3e
 }
 
 .page.-howto.-pe .step-image {
