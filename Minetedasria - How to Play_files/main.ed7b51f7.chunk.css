@@ -760,149 +760,36 @@
     }
 }
 
-.no-webp .-pc .step-image.-download {
-    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.de3c2a44.png)!important
-}
-
-.no-webp .-pc .step-image.-launch {
-    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-launch.fad711a8.png)!important
-}
-
-.no-webp .-pc .step-image.-config {
-    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-config.1ad94bed.png)!important
-}
-
-.no-webp .-pc .step-image.-server {
-    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-server.18ff84e9.png)!important
-}
-
-.supports-webp .-pc .step-image.-download {
-    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.e6398d4d.webp)!important
-}
-
-.supports-webp .-pc .step-image.-launch {
-    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-launch.4f2bc02f.webp)!important
-}
-
-.supports-webp .-pc .step-image.-config {
-    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-config.aaefcc1c.webp)!important
-}
-
-.supports-webp .-pc .step-image.-server {
-    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-server.533b7d5b.webp)!important
-}
-
-.page.-howto.-pe .badge {
-    color: #fc75cd;
-    background: rgba(252,117,205,.24)
-}
-
-.page.-howto.-pe .page-title strong {
-    color: #fc75cd
-}
-
-.page.-howto.-pe .step:nth-child(odd) .step-content {
-    color: #fc75cd;
-    background: #fbdbf0
-}
-
-.page.-howto.-pe .step:nth-child(odd) .button.-step {
-    background: #fc75cd
-}
-
-.page.-howto.-pe .step:nth-child(2n) .step-content {
-    color: #6b75ff;
-    background: #d9dbfc
-}
-
-.page.-howto.-pe .step:nth-child(2n) .button.-step {
-    background: #6b75ff
-}
-
-.page.-howto.-pe .step-image {
-    width: 400px;
-    height: 170px;
-    overflow: hidden;
-    background: #333;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: 80% 90%;
-    box-sizing: content-box;
-    border-radius: 12px
-}
-
-.page.-howto.-pe .step-image:after,.page.-howto.-pe .step-image:before {
-    content: "";
-    display: block;
-    background: #505050;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%,-50%)
-}
-
-.page.-howto.-pe .step-image:before {
-    width: 4px;
-    height: 32px;
-    border-radius: 2px;
-    left: 5%
-}
-
-.page.-howto.-pe .step-image:after {
-    width: 24px;
-    height: 24px;
-    border-radius: 12px;
-    left: 95%
-}
-
-@media screen and (max-width: 920px) {
-    .page.-howto.-pe .step-image {
-        width:80vw!important;
-        height: 33vw!important
-    }
-
-    .page.-howto.-pe .step-image:before {
-        width: .75vw;
-        height: 6vw;
-        border-radius: .375vw
-    }
-
-    .page.-howto.-pe .step-image:after {
-        width: 4vw;
-        height: 4vw;
-        border-radius: 2vw
-    }
-}
-
 .no-webp .-pe .step-image.-menu {
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-menu.f457db10.png)!important
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-menu.f457db10.png)!important
 }
 
 .no-webp .-pe .step-image.-servers {
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-servers.0949cb9c.png)!important
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-servers.0949cb9c.png)!important
 }
 
 .no-webp .-pe .step-image.-config {
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-config.e700d80e.png)!important
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-config.e700d80e.png)!important
 }
 
 .no-webp .-pe .step-image.-server {
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-server.2ef88921.png)!important
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-server.2ef88921.png)!important
 }
 
 .supports-webp .-pe .step-image.-menu {
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-menu.20ac4df5.webp)!important
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-menu.20ac4df5.webp)!important
 }
 
 .supports-webp .-pe .step-image.-servers {
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-servers.b5d5de9a.webp)!important
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-servers.b5d5de9a.webp)!important
 }
 
 .supports-webp .-pe .step-image.-config {
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-config.5c1606b7.webp)!important
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-config.5c1606b7.webp)!important
 }
 
 .supports-webp .-pe .step-image.-server {
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-server.383513f9.webp)!important
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-server.383513f9.webp)!important
 }
 
 * {
@@ -994,7 +881,7 @@ body {
 /*# sourceMappingURL=main.ed7b51f7.chunk.css.map */
 /*
      FILE ARCHIVED ON 15:05:59 Jul 17, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 00:49:37 Nov 02, 2024.
+     INTERNET ARCHIVE ON 23:07:51 Sep 03, 2024.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -1002,13 +889,13 @@ body {
 */
 /*
 playback timings (ms):
-  captures_list: 0.668
-  exclusion.robots: 0.03
-  exclusion.robots.policy: 0.018
+  captures_list: 0.45
+  exclusion.robots: 0.016
+  exclusion.robots.policy: 0.007
   esindex: 0.01
-  cdx.remote: 30.793
-  LoadShardBlock: 66.029 (3)
-  PetaboxLoader3.datanode: 85.203 (4)
-  load_resource: 71.955
-  PetaboxLoader3.resolve: 45.543
+  cdx.remote: 6.839
+  LoadShardBlock: 133.555 (3)
+  PetaboxLoader3.datanode: 86.624 (4)
+  PetaboxLoader3.resolve: 1167.94 (2)
+  load_resource: 1124.891
 */
