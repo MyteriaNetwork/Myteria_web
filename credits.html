@@ -141,4 +141,27 @@
   word-wrap: normal;
   direction: ltr;
 }
+.contributor-list 
+	{
+                display: grid;
+                gap: 1rem;
+                grid-template-columns: repeat(1,minmax(0,1fr));
+                margin-bottom: 2rem
+            }
+
+            .contributor-list .contributor {
+                --tw-bg-opacity: 1;
+                background-color: rgb(242 225 194/var(--tw-bg-opacity));
+                border-radius: .375rem;
+                display: flex;
+                flex-direction: column;
+                padding-left: 1.75rem;
+                padding-right: 1.75rem
+            }
+
+            .contributor-list .contributor h3 {
+                margin-bottom: .5rem;
+                position: relative
+            }
+
 
