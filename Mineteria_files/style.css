@@ -72,54 +72,6 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
-
-#forum,
-#store,
-#vote {
-    padding: 0;
-    margin: 0;
-    float: left;
-    background: url(https://ia600601.us.archive.org/19/items/myteria_icons_nav_sprite_202409/myteria_icons_nav_sprite.png);
-    width: 300px;
-    height: 275px;
-}
-
-#forum {
-    background-position: 0 0;
-}
-
-#forum:hover {
-    background-position: 0 -275px;
-}
-
-#forum:active {
-    background-position: 0 0;
-}
-
-#store {
-    background-position: -300px 0;
-}
-
-#store:hover {
-    background-position: -300px -275px;
-}
-
-#store:active {
-    background-position: -300px 0;
-}
-
-#vote {
-    background-position: 300px 0;
-}
-
-#vote:hover {
-    background-position: 300px -275px;
-}
-
-#vote:active {
-    background-position: 300px 0;
-}
-
 @media screen and (max-height: 800px) {
     header {
         margin-top: 0;
