@@ -1,193 +1,308 @@
- <!DOCTYPE html>
-<!-- saved from url=(0049)https://mineteria.com/how-to-play/bedrock-edition -->
-<html class="supports-webp" lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="width=device-width,initial-scale=1" name="viewport"><!doctype html><html lang="en-us"><head><!-- is_embed=False -->
-<script>
-  const observer = new PerformanceObserver((list) => {
-    list.getEntries().forEach((entry) => {
-      console.log('%o', entry);
-    })
-  });
-  observer.observe({type: "navigation", buffered: true});
-</script>
-<script src="//archive.org/includes/athena.js" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app213.us.archive.org';v.server_ms=387;archive_analytics.send_pageview({});});</script>
-<script type="text/javascript" src="./signup/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
-<script type="text/javascript" src="./signup/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
-<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="./signup/js/ruffle/ruffle.js"></script>
-<script type="text/javascript">
-    __wm.init("https://web.archive.org/web");
-  __wm.wombat("https://shop.mineteria.com/login","20220525160849","https://web.archive.org/","web","/_static/",
-	      "1653494929");
-</script>
-<div class="container">
-<h1 class="page-title"> Meet the people who made this possible <3</h1>
-<artical class= "article content-body load-external-scripts">
-<p></p>
-<h2 id="management">Management</h2>
-<div class="contributor-list">
-    <div class="contributor">
-        <h3>Grimtime_</h3>
-        <p>Owner &amp; Myteria Founder</p>
-    </div>
-    
-     <div class="contributor">
-        <h3>Aihka</h3>
-        <p>Owner</p>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credits &lt;3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(180deg, #f5f5f5, #e3e4e8);
+            color: #333;
+            position: relative;
+            overflow-x: hidden;
+        }
 
-    <div class="contributor">
-        <h3>iCorrosion</h3>
-        <p>Admin &amp; Community Manager</p>
-    </div>
+        header {
+            background: url('https://i.ibb.co/s1KkQzZ/mineteria-bg-1.jpg') center/cover no-repeat;
+            padding: 4rem 2rem;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            z-index: 2;
+            position: relative;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            z-index: 2;
+            position: relative;
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .contributor-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .contributor-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .contributor-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .contributor-card h3 {
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .contributor-card p {
+            margin: 0;
+            font-size: 1rem;
+            color: #666;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+
+        footer a {
+            color: #f5d988;
+            text-decoration: none;
+        }
+
+        .bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .blob {
+            position: absolute;
+            opacity: 0.6;
+        }
+
+        .blob.-a {
+            top: -10%;
+            left: -10%;
+            width: 300px;
+            height: 300px;
+            background: #fc7ed0;
+            border-radius: 50%;
+            animation: move-blob-1 8s infinite;
+        }
+
+        .blob.-b {
+            bottom: -10%;
+            right: -10%;
+            width: 400px;
+            height: 400px;
+            background: #8e85fa;
+            border-radius: 50%;
+            animation: move-blob-2 10s infinite;
+        }
+
+        .blob.-c {
+            top: 10%;
+            right: 15%;
+            width: 200px;
+            height: 200px;
+            background: #fc7ed0;
+            border-radius: 50%;
+            animation: move-blob-3 12s infinite;
+        }
+
+        @keyframes move-blob-1 {
+            0%, 100% {
+                transform: translate(0, 0);
+            }
+            50% {
+                transform: translate(20px, 20px);
+            }
+        }
+
+        @keyframes move-blob-2 {
+            0%, 100% {
+                transform: translate(0, 0);
+            }
+            50% {
+                transform: translate(-20px, -20px);
+            }
+        }
+
+        @keyframes move-blob-3 {
+            0%, 100% {
+                transform: translate(0, 0);
+            }
+            50% {
+                transform: translate(10px, -10px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Meet the People Who Made This Possible &lt;3</h1>
+    <p>We couldn't have done it without this amazing team.</p>
+</header>
+
+<main>
+    <section>
+        <h2>Management</h2>
+        <div class="contributor-grid">
+            <div class="contributor-card">
+                <h3>Grimtime_</h3>
+                <p>Owner & Myteria Founder</p>
+            </div>
+            <div class="contributor-card">
+                <h3>Aihka</h3>
+                <p>Owner</p>
+            </div>
+            <div class="contributor-card">
+                <h3>iCorrosion</h3>
+                <p>Admin & Community Manager</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>The Team</h2>
+        <div class="contributor-grid">
+            <div class="contributor-card">
+                <h3>Vlere</h3>
+                <p>Head Builder</p>
+            </div>
+            <div class="contributor-card">
+                <h3>Shystyx</h3>
+                <p>Builder</p>
+            </div>
+            <div class="contributor-card">
+                <h3>Lady Luna</h3>
+                <p>Builder</p>
+            </div>
+            <div class="contributor-card">
+                <h3>Foxgamer55</h3>
+                <p>Builder</p>
+            </div>
+            <div class="contributor-card">
+                <h3>Roseforlie</h3>
+                <p>Builder</p>
+            </div>
+            <div class="contributor-card">
+                <h3>Glitch</h3>
+                <p>Builder</p>
+            </div>
+            <div class="contributor-card">
+                <h3>W0r1d</h3>
+                <p>Builder</p>
+            </div>
+            <div class="contributor-card">
+                <h3>CornKaine</h3>
+                <p>Builder</p>
+            </div>
+            <div class="contributor-card">
+                <h3>Jake_Axer</h3>
+                <p>Builder</p>
+            </div>
+            <div class="contributor-card">
+                <h3>WhoisVix</h3>
+                <p>Artist</p>
+            </div>
+            <div class="contributor-card">
+                <h3>Callum_is_bad</h3>
+                <p>Artist</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Honorable Mentions</h2>
+        <div class="contributor-grid">
+            <div class="contributor-card">
+                <p><strong>Wildmaster84</strong> - Developer</p>
+                <p><strong>IEmeraldM</strong> - Builder</p>
+                <p><strong>Synabytez</strong> - Builder</p>
+                <p><strong>YTraroo</strong> - Qa</p>
+                <p><strong>0wonyx</strong> - Qa</p>
+                <p><strong>Snaili</strong> - Qa</p>
+                <p><strong>LoserH3tty</strong> - Qa</p>
+                <p><strong>Augustify</strong> - Qa</p>
+                <p><strong>Polarific</strong> - Qa</p>
+                <p><strong>InfernoPug</strong> - Qa</p>
+                <p><strong>Ritesies</strong> - Qa</p>
+                <p><strong>ScreamingFlames</strong> - Qa</p>
+                <p><strong>Tubble</strong> - Qa</p>
+                <p><strong>Besty</strong> - Qa</p>
+                <p><strong>Candycanesforu</strong> - Qa</p>
+                <p><strong>Carb knight</strong> - Qa</p>
+                <p><strong>Kanoabean</strong> - Qa</p>
+                <p><strong>Gqvon</strong> - Qa</p>
+                <p><strong>KillerHamsters</strong> - Qa</p>
+                <p><strong>Jackiethepikachu</strong> - Qa</p>
+                <p><strong>Ladycat</strong> - Qa</p>
+                <p><strong>Moofyuu</strong> - Qa</p>
+                <p><strong>Amarble</strong> - Qa</p>
+                <p><strong>BritishAutisim</strong> - Qa</p>
+                <p><strong>Robin Lorelei</strong> - Qa</p>
+                <p><strong>Raeofsunshine01</strong> - Qa</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<div class="bg">
+    <div class="blob -a"></div>
+    <div class="blob -b"></div>
+    <div class="blob -c"></div>
 </div>
-<p></p>
-<h2 id="development-team">The Team</h2>
-<div class="contributor-list">
-   <div class="contributor">
-        <h3>Vlere</h3>
-        <p>Head Builder</p>
-    </div>
-   <div class="contributor">
-        <h3>Shystyx</h3>
-        <p>Builder</p>
-    </div>
-   <div class="contributor">
-        <h3>Lady Luna</h3>
-        <p>Builder</p>
-    </div>
-   <div class="contributor">
-        <h3>Foxgamer55</h3>
-        <p>Builder</p>
-    </div>
-   <div class="contributor">
-        <h3>Roseforlie</h3>
-        <p>Builder</p>
-    </div>
-   <div class="contributor">
-        <h3>Glitch</h3>
-        <p>Builder</p>
-    </div>
-   <div class="contributor">
-        <h3>W0r1d</h3>
-        <p>Builder</p>
-    </div>
-   <div class="contributor">
-        <h3>CornKaine</h3>
-        <p>Builder</p>
-    </div>
-   <div class="contributor">
-        <h3>Jake_Axer</h3>
-        <p>Builder</p>
-    </div>
-   <div class="contributor">
-        <h3>WhoisVix</h3>
-        <p>Artist</p>
-    </div>
-   <div class="contributor">
-        <h3>Callum_is_bad</h3>
-        <p>Artist</p>
-    </div>
-</div>
-<h1 id="honorable-mentions">Honorable Mentions</h1>
-<p></p>
-<div class="list-grid test">
-    <div class="list-item">
-        <p>• Wildmaster84 - Developer</p>
-        <p>• IemeraldMC - Builder</p>
-	<p>• Synabytez - Builder</p>
-    </div>
-</div>
-<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
-<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
-<link rel="shortcut icon" href="https://i.imgur.com/1cY5rSS.png">
-<link rel="shortcut icon" href="https://i.imgur.com/1cY5rSS.png">
-<!-- End Wayback Rewrite JS Include -->
-<title>Credits <3</title><meta charset="utf-8"><meta name="description" content="View the people who made this possible."><meta name="author" content="Grimtime_"><meta name="keywords" content=""><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0"><style>
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://web.archive.org/web/20220525160849im_/https://shop.mineteria.com/fonts.gstatic.com/s/inter/v11/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZk.eot);
-}
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://web.archive.org/web/20220525160849im_/https://shop.mineteria.com/fonts.gstatic.com/s/materialicons/v129/flUhRq6tzZclQEJ-Vdg-IuiaDsNY.eot);
-}
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://web.archive.org/web/20220525160849im_/https://shop.mineteria.com/fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew_.eot);
-}
 
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-}
-.contributor-list 
-	{
-                display: grid;
-                gap: 1rem;
-                grid-template-columns: repeat(1,minmax(0,1fr));
-                margin-bottom: 2rem
-            }
+<footer>
+    <p>Made with ♥ by the Myteria team.</p>
+    <p><a href="https://www.myteria.com">Return to the main page</a></p>
+</footer>
 
-            .contributor-list .contributor {
-                --tw-bg-opacity: 1;
-                background-color: rgb(245 217 136/var(--tw-bg-opacity));
-                border-radius: .375rem;
-                display: flex;
-                flex-direction: column;
-                padding-left: 1.75rem;
-                padding-right: 1.75rem
-            }
-
-            .contributor-list .contributor h3 {
-                margin-bottom: .5rem;
-                position: relative
-            }
-              #header-bg {
-                --tw-bg-opacity: 1;
-                background-color: rgb(234 192 83/var(--tw-bg-opacity));
-                top: 0
-            }
-
-            #header-bg,#header-bg .layer {
-                inset: 0;
-                position: absolute;
-                width: 100%
-            }
-.header-sticky .panel .item,.ndzn-header .panel .item {
-                --tw-text-opacity: 1;
-                border-radius: .75rem;
-                color: rgb(57 126 221/var(--tw-text-opacity));
-                font-family: Paytone One,Arial,sans-serif;
-                font-weight: 500;
-                line-height: 1.5rem;
-                transition-duration: .2s;
-                white-space: nowrap
-            }
-{
-    background-image: url(https://i.ibb.co/s1KkQzZ/mineteria-bg-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-    }
-
+</body>
+</html>
 
