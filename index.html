@@ -26,78 +26,88 @@
             transform: scale(1.1); /* Slight zoom on hover */
         }
     </style>
-    <link rel="stylesheet" href="https://path-to-your-styles/banner-styles.css">
-    <link rel="stylesheet" href="https://path-to-your-styles/iconochive.css">
-    <link href="https://path-to-your-styles/style.css" rel="stylesheet">
-    <link href="https://path-to-your-styles/font-awesome.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="https://i.imgur.com/1cY5rSS.png">
 </head>
 <body>
+    <!-- Other content of the page -->
+
     <!-- Credits link -->
     <a href="https://myteria.com/credits.html" class="credits-link" target="_blank">Credits</a>
 
-    <header>
-        <img class="logo" src="./Mineteria_files/mineteria_logo_off.png" alt="Mineteria logo">
-        <img class="onlogo" src="./Mineteria_files/mineteria_logo.png" alt="Mineteria logo">
+    
+    <!-- External CSS Links -->
+    <link rel="stylesheet" type="text/css" href="./Mineteria_files/banner-styles.css">
+    <link rel="stylesheet" type="text/css" href="./Mineteria_files/iconochive.css">
+    <link href="./Mineteria_files/style.css" rel="stylesheet" type="text/css">
+    <link href="./Mineteria_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="https://i.imgur.com/1cY5rSS.png">
+</head>
+<body>
 
-        <!-- Server Info with Dynamic Player Count -->
-        <div class="server-info">
-            <span class="server-ip">FUN.MYTERIA.NET </span>
-            <span class="player-count" id="player-count">Loading...</span>
-        </div>
-    </header>
+<header>
+    <img class="logo" src="./Mineteria_files/mineteria_logo_off.png" alt="Mineteria logo">
+    <img class="onlogo" src="./Mineteria_files/mineteria_logo.png" alt="Mineteria logo">
+    
+    <!-- Server Info with Dynamic Player Count -->
+    <div class="server-info">
+        <span class="server-ip">FUN.MYTERIA.NET </span>
+        <span class="player-count" id="player-count">Loading...</span>
+    </div>
+</header>
 
-    <nav>
-        <a href="https://www.myteria.com/how-to-play"><div id="forum">Forum</div></a>
-        <a href="https://shop.myteria.net/"><div id="store">Store</div></a>
-        <a href="https://minecraft-server-list.com/server/501932/vote/"><div id="vote">Vote</div></a>
-    </nav>
+<nav>
+    <a href="https://www.myteria.com/how-to-play"><div id="forum"></div></a>
+    <a href="https://shop.myteria.net/"><div id="store"></div></a>
+    <a href="https://minecraft-server-list.com/server/501932/vote/"><div id="vote"></div></a>
+</nav>
 
-    <!-- Player Count Script -->
-    <script>
-        async function fetchPlayerCount() {
-            const serverAddress = "fun.myteria.net";
-
-            try {
-                // Replace this URL with an API or server status query endpoint
-                const response = await fetch(`https://api.mcsrvstat.us/2/${serverAddress}`);
-                const data = await response.json();
-
-                if (data && data.online) {
-                    const currentPlayers = data.players.online || 0;
-                    const maxPlayers = data.players.max || 0;
-
-                    // Update the player count without leading zeros
-                    document.getElementById("player-count").textContent = `${currentPlayers} / ${maxPlayers}`;
-                } else {
-                    document.getElementById("player-count").textContent = "N/A / N/A";
-                }
-            } catch (error) {
-                console.error("Failed to fetch player count:", error);
+<!-- Player Count Script -->
+<script>
+    async function fetchPlayerCount() {
+        const serverAddress = "fun.myteria.net";
+        
+        try {
+            // Replace this URL with an API or server status query endpoint
+            const response = await fetch(https://api.mcsrvstat.us/2/${serverAddress});
+            const data = await response.json();
+            
+            if (data && data.online) {
+                const currentPlayers = data.players.online || 0;
+                const maxPlayers = data.players.max || 0;
+                
+                // Update the player count without leading zeros
+                document.getElementById("player-count").textContent = ${currentPlayers} / ${maxPlayers};
+            } else {
                 document.getElementById("player-count").textContent = "N/A / N/A";
             }
+        } catch (error) {
+            console.error("Failed to fetch player count:", error);
+            document.getElementById("player-count").textContent = "N/A / N/A";
         }
+    }
 
-        // Update the player count every 60 seconds
-        fetchPlayerCount();
-        setInterval(fetchPlayerCount, 60000);
+    // Update the player count every 60 seconds
+    fetchPlayerCount();
+    setInterval(fetchPlayerCount, 60000);
 
-        // Copy IP Functionality
-        function copyIP() {
-            var copyText = "fun.myteria.net";
-            
-            navigator.clipboard.writeText(copyText).then(function() {
-                alert("Copied the IP address: " + copyText);
-            }).catch(function(error) {
-                console.error("Error copying IP address: ", error);
-            });
-        }
-    </script>
+    // Copy IP Functionality
+    function copyIP() {
+        var copyText = "fun.myteria.net";
+        
+        navigator.clipboard.writeText(copyText).then(function() {
+            alert("Copied the IP address: " + copyText);
+        }).catch(function(error) {
+            console.error("Error copying IP address: ", error);
+        });
+    }
+</script>
 
-    <!-- External JS Scripts -->
-    <script src="./Mineteria_files/jquery.min.js"></script>
-    <script src="./Mineteria_files/sweetalert2.min.js"></script>
-    <script src="./Mineteria_files/numeral.min.js"></script>
-    <script src="./Mineteria_files/ZeroClipboard.min.js"></script>
+<!-- External JS Scripts -->
+<script src="./Mineteria_files/jquery.min.js.download"></script>
+<script src="./Mineteria_files/sweetalert2.min.js.download"></script>
+<script src="./Mineteria_files/numeral.min.js.download"></script>
+<script src="./Mineteria_files/ZeroClipboard.min.js.download"></script>
+
 </body>
 </html>
+
+<div class="swal2-container"><div class="swal2-overlay" tabindex="-1"></div><div class="swal2-modal" style="display: none" tabindex="-1"><div class="swal2-icon swal2-error"><span class="x-mark"><span class="line left"></span><span class="line right"></span></span></div><div class="swal2-icon swal2-question">?</div><div class="swal2-icon swal2-warning">!</div><div class="swal2-icon swal2-info">i</div><div class="swal2-icon swal2-success"><span class="line tip"></span> <span class="line long"></span><div class="placeholder"></div> <div class="fix"></div></div><img class="swal2-image"><h2></h2><div class="swal2-content"></div><input class="swal2-input"><select class="swal2-select"></select><div class="swal2-radio"></div><label for="swal2-checkbox" class="swal2-checkbox"><input type="checkbox" id="swal2-checkbox"></label><textarea class="swal2-textarea"></textarea><div class="swal2-validationerror"></div><hr class="swal2-spacer"><button class="swal2-confirm">OK</button><button class="swal2-cancel">Cancel</button><span class="swal2-close">×</span></div></div></body></html>
