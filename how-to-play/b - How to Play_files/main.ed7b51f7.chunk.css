@@ -680,21 +680,21 @@
 }
 
 .page.-howto.-pe .badge {
-    color: #edcb69;
+    color: #b18402;
     background: rgba(252,117,205,.24)
 }
 
 .page.-howto.-pe .page-title strong {
-    color: #edcb69
+    color: #b18402
 }
 
 .page.-howto.-pe .step:nth-child(odd) .step-content {
-    color: #edcb69;
+    color: #b18402;
     background: #f5d988
 }
 
 .page.-howto.-pe .step:nth-child(odd) .button.-step {
-    background: #edcb69
+    background: #b18402
 }
 
 .page.-howto.-pe .step:nth-child(2n) .step-content {
