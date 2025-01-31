@@ -2394,13 +2394,6 @@
     -webkit-animation: rotate 2s linear infinite;
     animation: rotate 2s linear infinite
 }
-
-.page.-order-complete .box .face.-error {
-    color: #ff695b;
-    font-size: 80px;
-    margin-bottom: 48px
-}
-
 .page.-order-complete .box-title {
     color: #272729;
     font-size: 48px;
