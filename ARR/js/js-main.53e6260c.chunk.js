@@ -18,27 +18,6 @@ if (!self.__WB_pmw) {
 } else {
     console.warn("__WB_pmw is already defined. Skipping redefinition.");
 }
-
-// Ensure Yt is defined as a function and initialize it upfront
-if (typeof Yt === 'undefined') {
-    // Initialize Yt if it's not defined
-    Yt = function() {
-        console.error("Yt is not properly defined. Please check dependencies.");
-        return null; // Return null as a fallback
-    };
-} else {
-    // If Yt is defined, ensure it's a function
-    if (typeof Yt !== 'function') {
-        console.error("Yt is not a function. Please check the implementation.");
-        // Convert it into a fallback function if it's not callable
-        Yt = function() {
-            return null;
-        };
-    }
-}
-
-// Example usage:
-Yt(); // This should now work without errors
 {
     let window = _____WB$wombat$assign$function_____("window");
     let self = _____WB$wombat$assign$function_____("self");
