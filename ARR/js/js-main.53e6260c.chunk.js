@@ -1,22 +1,39 @@
+// Safe assignment function for Wombat module initialization
 var _____WB$wombat$assign$function_____ = function(name) {
-    return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name];
+    if (self._wb_wombat && self._wb_wombat.local_init) {
+        return self._wb_wombat.local_init(name);
+    }
+    return self[name];
 };
+
+// Safe initialization of the __WB_pmw function (to prevent overwriting)
 if (!self.__WB_pmw) {
     self.__WB_pmw = function(obj) {
+        if (!obj) {
+            console.error("Invalid object passed to __WB_pmw.");
+            return this;
+        }
         this.__WB_source = obj;
         return this;
-    }
+    };
+} else {
+    console.warn("__WB_pmw is already defined. Skipping redefinition.");
 }
 
-// Define Yt to prevent ReferenceError
+// Ensure Yt is properly defined and log dependencies if it's still not ready
 var Yt = Yt || function() {
-    console.error("Yt is not properly defined. Please check dependencies.");
-    return null;
+    if (typeof Yt !== 'function') {
+        console.error("Yt is not properly defined. Please check dependencies.");
+        // Optional: Set a fallback function to avoid breaking code
+        Yt = function() {
+            return null;
+        };
+    }
+    return Yt(); // Call the defined Yt if it exists
 };
 
 // Example usage:
-Yt(); // If Yt was undefined, it will log the error and return null.
-
+Yt(); // Ensures that Yt is defined and logs error only if necessary
 {
     let window = _____WB$wombat$assign$function_____("window");
     let self = _____WB$wombat$assign$function_____("self");
