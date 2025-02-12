@@ -8,9 +8,16 @@ if (!self.__WB_pmw) {
     }
 }
 
+if (typeof Yt === 'undefined') {
+    var Yt = function() {
+        console.error("Yt is not properly defined. Please check dependencies.");
+        return null;
+    };
+}
 // Define Yt to prevent ReferenceError
 var Yt = Yt || function() {
     console.error("Yt is not properly defined. Please check dependencies.");
+    console.log("Yt is now defined as fallback.");
     return null;
 };
 
