@@ -3739,32 +3739,6 @@ if (!self.__WB_pmw) {
                         var n = gt(e);
                         t = t.concat(a.coupons.filter(e => e.coupon === n))
                     }
-                    return t
-                }(a, e)
-                  , c = {};
-                var s, r = Object(Nt.a)(t);
-                try {
-                    for (r.s(); !(s = r.n()).done; ) {
-                        const e = s.value
-                          , a = yt(e, n) / 100
-                          , t = Object.assign({}, c[e.internalId]);
-                        e.plan ? t.monthly = a : t.lifetime = a,
-                        c[e.internalId] = t
-                    }
-                } catch (l) {
-                    r.e(l)
-                } finally {
-                    r.f()
-                }
-                return c
-            }
-            ), (e, a) => JSON.stringify(Object(b.a)(Object(b.a)({}, e), {}, {
-                coupon: a
-            })));
-            function yt(e, a) {
-                var t = a.filter(a => -1 !== a.matched.indexOf(e.id)).reduce( (e, a) => "flat" === a.type ? e - a.value : "percentage" === a.type ? e * (1 - a.value / 100) : e, e.price.original);
-                return Math.floor(Math.max(0, t))
-            }
             t(366);
             var xt = e => c.a.createElement("div", {
                 className: "perk" + (e.exclusive ? " -exclusive" : "")
