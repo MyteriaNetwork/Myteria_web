@@ -7,6 +7,13 @@ if (!self.__WB_pmw) {
         return this;
     }
 }
+// Define Yt to prevent ReferenceError
+if (typeof Yt === 'undefined') {
+    var Yt = function() {
+        console.error("Yt is not properly defined. Please check dependencies.");
+        return null;
+    };
+}
 {
     let window = _____WB$wombat$assign$function_____("window");
     let self = _____WB$wombat$assign$function_____("self");
