@@ -6,14 +6,6 @@ if (!self.__WB_pmw) {
         this.__WB_source = obj;
         return this;
     }
-}
-
-// Define Yt to prevent ReferenceError
-var Yt = Yt || function() {
-    console.error("Yt is not properly defined. Please check dependencies.");
-    return null;
-};
-
 {
     let window = _____WB$wombat$assign$function_____("window");
     let self = _____WB$wombat$assign$function_____("self");
