@@ -844,9 +844,7 @@ if (!self.__WB_pmw) {
                     className: "menu-item-icon material-icons -signup"
                 }, "how_to_reg"), c.a.createElement("span", {
                     className: "menu-item-text"
-                }, "Sign Up"))))), c.a.createElement("div", {
-                    className: "lightbox-overlay",
-                    onClick: e
+
                 }))
             }
             const J = {
@@ -2241,10 +2239,7 @@ if (!self.__WB_pmw) {
                     className: "user-status"
                 }, e.date ? "Linked on ".concat(ve()(e.date).format("MMM D, YYYY")) : "Account has not been linked."))))
             }
-            function ja({method: e, onConfirm: a, onClose: t}) {
-                return c.a.createElement("div", {
-                    className: "lightbox"
-                }, c.a.createElement("div", {
+                } c.a.createElement("div", {
                     className: "modal -unlink-account"
                 }, c.a.createElement(Ve, {
                     className: "modal-icon"
@@ -2270,8 +2265,6 @@ if (!self.__WB_pmw) {
             }
             function _a({account: e, onConfirm: a, onClose: t}) {
                 return c.a.createElement("div", {
-                    className: "lightbox"
-                }, c.a.createElement("div", {
                     className: "modal -unlink-account"
                 }, c.a.createElement(Ve, {
                     className: "modal-icon"
@@ -2291,8 +2284,6 @@ if (!self.__WB_pmw) {
                 }, "Unlink"), c.a.createElement("button", {
                     className: "button -modal -cancel",
                     onClick: t
-                }, "Cancel"))), c.a.createElement("div", {
-                    className: "lightbox-overlay"
                 }))
             }
             const Pa = e => {
