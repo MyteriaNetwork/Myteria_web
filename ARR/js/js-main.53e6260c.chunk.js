@@ -1,23 +1,19 @@
 var _____WB$wombat$assign$function_____ = function(name) {
-    if (self._wb_wombat && self._wb_wombat.local_init) {
-        return self._wb_wombat.local_init(name);
-    }
-    return self[name];
+    return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name];
 };
-
-// Safe initialization of the __WB_pmw function (to prevent overwriting)
 if (!self.__WB_pmw) {
     self.__WB_pmw = function(obj) {
-        if (!obj) {
-            console.error("Invalid object passed to __WB_pmw.");
-            return this;
-        }
         this.__WB_source = obj;
         return this;
-    };
-} else {
-    console.warn("__WB_pmw is already defined. Skipping redefinition.");
+    }
 }
+
+// Define Yt to prevent ReferenceError
+var Yt = Yt || function() {
+    console.error("Yt is not properly defined. Please check dependencies.");
+    return null;
+};
+
 {
     let window = _____WB$wombat$assign$function_____("window");
     let self = _____WB$wombat$assign$function_____("self");
@@ -3739,6 +3735,32 @@ if (!self.__WB_pmw) {
                         var n = gt(e);
                         t = t.concat(a.coupons.filter(e => e.coupon === n))
                     }
+                    return t
+                }(a, e)
+                  , c = {};
+                var s, r = Object(Nt.a)(t);
+                try {
+                    for (r.s(); !(s = r.n()).done; ) {
+                        const e = s.value
+                          , a = yt(e, n) / 100
+                          , t = Object.assign({}, c[e.internalId]);
+                        e.plan ? t.monthly = a : t.lifetime = a,
+                        c[e.internalId] = t
+                    }
+                } catch (l) {
+                    r.e(l)
+                } finally {
+                    r.f()
+                }
+                return c
+            }
+            ), (e, a) => JSON.stringify(Object(b.a)(Object(b.a)({}, e), {}, {
+                coupon: a
+            })));
+            function yt(e, a) {
+                var t = a.filter(a => -1 !== a.matched.indexOf(e.id)).reduce( (e, a) => "flat" === a.type ? e - a.value : "percentage" === a.type ? e * (1 - a.value / 100) : e, e.price.original);
+                return Math.floor(Math.max(0, t))
+            }
             t(366);
             var xt = e => c.a.createElement("div", {
                 className: "perk" + (e.exclusive ? " -exclusive" : "")
@@ -5458,6 +5480,16 @@ if (!self.__WB_pmw) {
                     path: "/reset/:uid/:token",
                     render: e => c.a.createElement(dt, null)
                 }), c.a.createElement(p.d, {
+                    component: Yt
+                })), v ? c.a.createElement(c.a.Fragment, null) : c.a.createElement("div", {
+                    className: "lightbox"
+                }, c.a.createElement("span", {
+                    className: "page-loading -iconic -await"
+                }, c.a.createElement("i", {
+                    className: "icon material-icons"
+                }, "autorenew")), c.a.createElement("div", {
+                    className: "lightbox-overlay"
+                })))
             }
             t(375);
             (window.__MINETERIA_SSR__ ? r.a.hydrate : r.a.render)(c.a.createElement(l.BrowserRouter, null, c.a.createElement(U, null, c.a.createElement(k, null, c.a.createElement(bn, null)))), document.getElementById("root"))
