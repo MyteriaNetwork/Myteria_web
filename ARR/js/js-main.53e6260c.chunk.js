@@ -14,6 +14,9 @@ var Yt = Yt || function() {
     return null;
 };
 
+// Example usage:
+Yt(); // If Yt was undefined, it will log the error and return null.
+
 {
     let window = _____WB$wombat$assign$function_____("window");
     let self = _____WB$wombat$assign$function_____("self");
