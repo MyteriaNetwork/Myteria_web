@@ -8,18 +8,16 @@ if (!self.__WB_pmw) {
     }
 }
 
+// Define Yt only if it's not already defined
 if (typeof Yt === 'undefined') {
     var Yt = function() {
         console.error("Yt is not properly defined. Please check dependencies.");
         return null;
     };
+} else {
+    // If Yt is already defined, you can log it or handle any other fallback logic here
+    console.log("Yt is already defined.");
 }
-// Define Yt to prevent ReferenceError
-var Yt = Yt || function() {
-    console.error("Yt is not properly defined. Please check dependencies.");
-    console.log("Yt is now defined as fallback.");
-    return null;
-};
 
 {
     let window = _____WB$wombat$assign$function_____("window");
