@@ -5505,16 +5505,6 @@ Yt(); // This should now work without errors
                     path: "/reset/:uid/:token",
                     render: e => c.a.createElement(dt, null)
                 }), c.a.createElement(p.d, {
-                    component: Yt
-                })), v ? c.a.createElement(c.a.Fragment, null) : c.a.createElement("div", {
-                    className: "lightbox"
-                }, c.a.createElement("span", {
-                    className: "page-loading -iconic -await"
-                }, c.a.createElement("i", {
-                    className: "icon material-icons"
-                }, "autorenew")), c.a.createElement("div", {
-                    className: "lightbox-overlay"
-                })))
             }
             t(375);
             (window.__MINETERIA_SSR__ ? r.a.hydrate : r.a.render)(c.a.createElement(l.BrowserRouter, null, c.a.createElement(U, null, c.a.createElement(k, null, c.a.createElement(bn, null)))), document.getElementById("root"))
