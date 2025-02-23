@@ -1,5 +1,6 @@
-@import 'record.css'; /* for SPN1 */
-
+:root {
+  --wm-toolbar-height: 65px;
+}
 #wm-ipp-base {
   height:65px;/* initial height just in case js code fails */
   padding:0;
@@ -505,3 +506,4 @@ body.wm-modal #donato #donato-base {
 .wb-autocomplete-suggestion.selected {
     background: #f0f0f0;
 }
+
