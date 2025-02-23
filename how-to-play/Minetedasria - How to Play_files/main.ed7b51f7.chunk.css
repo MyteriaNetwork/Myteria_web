@@ -1,5 +1,5 @@
 .title {
-    color: #4c40b6;
+    color: #fc75cd;
     font-size: 24px;
     font-weight: 900;
     text-transform: uppercase
@@ -98,13 +98,13 @@
     }
 
     .icon.-header-navitem.material-icons {
-        color: #5c2e7d
+        color: #6b75ff
     }
 
     .icon.-header-navitem.-discord {
         width: 24px;
         height: 24px;
-        fill: #240f3e
+        fill: #6b75ff
     }
 
     .icon.-header.-menu {
@@ -146,7 +146,7 @@
 
 .page.-home .content-badge {
     display: inline-block;
-    color: #03fc2c;
+    color: #fc75cd;
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
@@ -223,11 +223,11 @@
 }
 
 .page.-home .option.-pc .option-badge {
-    background: #240f3e
+    background: #6b75ff
 }
 
 .page.-home .option.-pc .option-text strong {
-    color: #240f3e
+    color: #6b75ff
 }
 
 .page.-home .option.-pe .option-badge {
@@ -587,30 +587,30 @@
 }
 
 .page.-howto.-pc .badge {
-    color: #240f3e;
+    color: #6b75ff;
     background: rgba(107,117,255,.24)
 }
 
 .page.-howto.-pc .page-title strong {
-    color: #240f3e
+    color: #6b75ff
 }
 
 .page.-howto.-pc .step:nth-child(odd) .step-content {
-    color: #240f3e;
-    background: #5c2e7d
+    color: #6b75ff;
+    background: #d9dbfc
 }
 
 .page.-howto.-pc .step:nth-child(odd) .button.-step {
-    background: #240f3e
+    background: #6b75ff
 }
 
 .page.-howto.-pc .step:nth-child(2n) .step-content {
-    color: #b86f47;
-    background: #f5d988
+    color: #fc75cd;
+    background: #fbdbf0
 }
 
 .page.-howto.-pc .step:nth-child(2n) .button.-step {
-    background: #edcb69
+    background: #fc75cd
 }
 
 .page.-howto.-pc .step-image {
@@ -629,7 +629,7 @@
     display: block;
     width: 480px;
     height: 24px;
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
+    background-image: url(/web/20240504225113im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
     background-size: contain
 }
 
