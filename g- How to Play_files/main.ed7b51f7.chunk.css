@@ -1,5 +1,5 @@
 .title {
-    color: #4c40b6;
+    color: #fc75cd;
     font-size: 24px;
     font-weight: 900;
     text-transform: uppercase
@@ -98,13 +98,13 @@
     }
 
     .icon.-header-navitem.material-icons {
-        color: #5c2e7d
+        color: #6b75ff
     }
 
     .icon.-header-navitem.-discord {
         width: 24px;
         height: 24px;
-        fill: #5c2e7d
+        fill: #6b75ff
     }
 
     .icon.-header.-menu {
@@ -146,14 +146,14 @@
 
 .page.-home .content-badge {
     display: inline-block;
-    color: #edcb69;
+    color: #fc75cd;
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
     text-transform: uppercase;
     padding: 4px 6px;
     margin-bottom: 16px;
-    background: rgba(245,217,13,.2)
+    background: rgba(252,117,205,.2)
 }
 
 .page.-home .prompt {
@@ -223,19 +223,19 @@
 }
 
 .page.-home .option.-pc .option-badge {
-    background: #5c2e7d
+    background: #6b75ff
 }
 
 .page.-home .option.-pc .option-text strong {
-    color: #5c2e7d
+    color: #6b75ff
 }
 
 .page.-home .option.-pe .option-badge {
-    background: #f5d988
+    background: #fc75cd
 }
 
 .page.-home .option.-pe .option-text strong {
-    color: #f5d988
+    color: #fc75cd
 }
 
 @media screen and (min-width: 1800px) {
@@ -587,30 +587,30 @@
 }
 
 .page.-howto.-pc .badge {
-    color: #240f3e;
-    background: rgba(36,15,62,.24)
+    color: #6b75ff;
+    background: rgba(107,117,255,.24)
 }
 
 .page.-howto.-pc .page-title strong {
-    color: #240f3e
+    color: #6b75ff
 }
 
 .page.-howto.-pc .step:nth-child(odd) .step-content {
-    color: #240f3e;
-    background: #5c2e7d
+    color: #6b75ff;
+    background: #d9dbfc
 }
 
 .page.-howto.-pc .step:nth-child(odd) .button.-step {
-    background: #240f3e
+    background: #6b75ff
 }
 
 .page.-howto.-pc .step:nth-child(2n) .step-content {
-    color: #b86f47;
-    background: #f5d988
+    color: #fc75cd;
+    background: #fbdbf0
 }
 
 .page.-howto.-pc .step:nth-child(2n) .button.-step {
-    background: #edcb69
+    background: #fc75cd
 }
 
 .page.-howto.-pc .step-image {
@@ -622,6 +622,29 @@
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 5px
+}
+
+.page.-howto.-pc .step-image:before {
+    content: "";
+    display: block;
+    width: 480px;
+    height: 24px;
+    background-image: url(/web/20240504225113im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
+    background-size: contain
+}
+
+@media screen and (max-width: 920px) {
+    .page.-howto.-pc .step-image {
+        width:80vw;
+        height: 49vw;
+        background-position: center 4vw
+    }
+
+    .page.-howto.-pc .step-image:before {
+        width: 80vw;
+        height: 4vw;
+        background-size: 80vw 4vw
+    }
 }
 
 .page.-howto.-pc .step-image:before {
