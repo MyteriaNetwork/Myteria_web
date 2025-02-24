@@ -1,4 +1,4 @@
-
+.title {
     color: #fc75cd;
     font-size: 24px;
     font-weight: 900;
@@ -629,7 +629,7 @@
     display: block;
     width: 480px;
     height: 24px;
-    background-image: url(/web/20240504225113im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
+    background-image: url(https://web.archive.org/web/20240504225113im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
     background-size: contain
 }
 
