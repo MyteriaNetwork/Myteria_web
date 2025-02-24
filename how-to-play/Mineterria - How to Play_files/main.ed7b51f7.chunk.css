@@ -629,7 +629,7 @@
     display: block;
     width: 480px;
     height: 24px;
-    background-image: url(/web/20240504225113im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
+    background-image: url(https://web.archive.org/web/20240504225113im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
     background-size: contain
 }
 
@@ -646,7 +646,6 @@
         background-size: 80vw 4vw
     }
 }
-
 .no-webp .-pc .step-image.-download {
     background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.de3c2a44.png)!important
 }
