@@ -1,4 +1,4 @@
-
+.title {
     color: #fc75cd;
     font-size: 24px;
     font-weight: 900;
@@ -629,10 +629,23 @@
     display: block;
     width: 480px;
     height: 24px;
-    background-image: url(/web/20240504225113im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
+    background-image: url(https://web.archive.org/web/20240504225113im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
     background-size: contain
 }
 
+@media screen and (max-width: 920px) {
+    .page.-howto.-pc .step-image {
+        width:80vw;
+        height: 49vw;
+        background-position: center 4vw
+    }
+
+    .page.-howto.-pc .step-image:before {
+        width: 80vw;
+        height: 4vw;
+        background-size: 80vw 4vw
+    }
+}
 @media screen and (max-width: 920px) {
     .page.-howto.-pc .step-image {
         width:80vw;
