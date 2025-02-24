@@ -677,33 +677,33 @@
 
 .supports-webp .-pc .step-image.-server {
     background-image: url(https://i.ibb.co/F3Vj25c/myteria2.png)!important
-}
+}}
 
 .page.-howto.-pe .badge {
-    color: #edcb69;
-    background: rgba(245,217,136,.24)
+    color: #fc75cd;
+    background: rgba(252,117,205,.24)
 }
 
 .page.-howto.-pe .page-title strong {
-    color: #edcb69
+    color: #fc75cd
 }
 
 .page.-howto.-pe .step:nth-child(odd) .step-content {
-    color: #edcb69;
-    background: #f5d988
+    color: #fc75cd;
+    background: #fbdbf0
 }
 
 .page.-howto.-pe .step:nth-child(odd) .button.-step {
-    background: #edcb69
+    background: #fc75cd
 }
 
 .page.-howto.-pe .step:nth-child(2n) .step-content {
-    color: #240f3e;
-    background: #5c2e7d
+    color: #6b75ff;
+    background: #d9dbfc
 }
 
 .page.-howto.-pe .step:nth-child(2n) .button.-step {
-    background: #240f3e
+    background: #6b75ff
 }
 
 .page.-howto.-pe .step-image {
@@ -880,8 +880,8 @@ body {
 
 /*# sourceMappingURL=main.ed7b51f7.chunk.css.map */
 /*
-     FILE ARCHIVED ON 15:05:59 Jul 17, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 23:07:51 Sep 03, 2024.
+     FILE ARCHIVED ON 22:51:13 May 04, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:45:43 Feb 23, 2025.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -889,13 +889,13 @@ body {
 */
 /*
 playback timings (ms):
-  captures_list: 0.45
-  exclusion.robots: 0.016
-  exclusion.robots.policy: 0.007
-  esindex: 0.01
-  cdx.remote: 6.839
-  LoadShardBlock: 133.555 (3)
-  PetaboxLoader3.datanode: 86.624 (4)
-  PetaboxLoader3.resolve: 1167.94 (2)
-  load_resource: 1124.891
+  captures_list: 0.848
+  exclusion.robots: 0.029
+  exclusion.robots.policy: 0.012
+  esindex: 0.013
+  cdx.remote: 63.942
+  LoadShardBlock: 791.945 (3)
+  PetaboxLoader3.datanode: 759.061 (4)
+  PetaboxLoader3.resolve: 136.337 (2)
+  load_resource: 181.47
 */
