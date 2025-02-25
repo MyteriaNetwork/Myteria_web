@@ -146,7 +146,7 @@
 
 .page.-home .content-badge {
     display: inline-block;
-    color: #edcb69;
+    color: #fc75cd;
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
@@ -587,7 +587,7 @@
 }
 
 .page.-howto.-pc .badge {
-    color: #240f3e;
+    color: #5c2e7d;
     background: rgba(36,15,62,.24)
 }
 
@@ -646,58 +646,21 @@
         background-size: 80vw 4vw
     }
 }
-.page.-howto.-pc .step-image:before {
-    content: "";
-    display: block;
-    width: 480px;
-    height: 24px;
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
-    background-size: contain
-}
 
-@media screen and (max-width: 920px) {
-    .page.-howto.-pc .step-image {
-        width:80vw;
-        height: 49vw;
-        background-position: center 4vw
-    }
-
-    .page.-howto.-pc .step-image:before {
-        width: 80vw;
-        height: 4vw;
-        background-size: 80vw 4vw
-    }
-}
 .no-webp .-pc .step-image.-download {
     background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.de3c2a44.png)!important
 }
 
 .no-webp .-pc .step-image.-launch {
-    background-image: url(https://i.imgur.com/aGfJhsK.png)!important
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-launch.fad711a8.png)!important
 }
 
 .no-webp .-pc .step-image.-config {
-    background-image: url(https://i.ibb.co/mS7jBqz/myteria1-ip.png)!important
+    background-image: url(https://i.imgur.com/lOIZScS.png)!important
 }
 
 .no-webp .-pc .step-image.-server {
-    background-image: url(https://i.ibb.co/F3Vj25c/myteria2.png)!important
-}
-
-.supports-webp .-pc .step-image.-download {
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.e6398d4d.webp)!important
-}
-
-.supports-webp .-pc .step-image.-launch {
-    background-image: url(https://i.imgur.com/aGfJhsK.png)!important
-}
-
-.no-webp .-pc .step-image.-config {
-    background-image: url(https://i.ibb.co/mS7jBqz/myteria1-ip.png)!important
-}
-
-.no-webp .-pc .step-image.-server {
-    background-image: url(https://i.ibb.co/F3Vj25c/myteria2.png)!important
+    background-image: url(https://i.imgur.com/u6icgtY.png)!important
 }
 
 .supports-webp .-pc .step-image.-download {
@@ -709,29 +672,29 @@
 }
 
 .supports-webp .-pc .step-image.-config {
-    background-image: url(https://i.ibb.co/mS7jBqz/myteria1-ip.png)!important
+    background-image: url(https://i.imgur.com/lOIZScS.png)!important
 }
 
 .supports-webp .-pc .step-image.-server {
-    background-image: url(https://i.ibb.co/F3Vj25c/myteria2.png)!important
+    background-image: url(https://i.imgur.com/u6icgtY.png)!important
 }
 
 .page.-howto.-pe .badge {
-    color: #edcb69;
+    color: #b18402;
     background: rgba(252,117,205,.24)
 }
 
 .page.-howto.-pe .page-title strong {
-    color: #edcb69
+    color: #b18402
 }
 
 .page.-howto.-pe .step:nth-child(odd) .step-content {
-    color: #edcb69;
+    color: #b18402;
     background: #f5d988
 }
 
 .page.-howto.-pe .step:nth-child(odd) .button.-step {
-    background: #edcb69
+    background: #b18402
 }
 
 .page.-howto.-pe .step:nth-child(2n) .step-content {
