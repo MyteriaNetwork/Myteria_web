@@ -629,7 +629,7 @@
     display: block;
     width: 480px;
     height: 24px;
-    background-image: url(https://web.archive.org/web/20240504225113im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
     background-size: contain
 }
 
@@ -646,51 +646,38 @@
         background-size: 80vw 4vw
     }
 }
-@media screen and (max-width: 920px) {
-    .page.-howto.-pc .step-image {
-        width:80vw;
-        height: 49vw;
-        background-position: center 4vw
-    }
-
-    .page.-howto.-pc .step-image:before {
-        width: 80vw;
-        height: 4vw;
-        background-size: 80vw 4vw
-    }
-}
 
 .no-webp .-pc .step-image.-download {
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.de3c2a44.png)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.de3c2a44.png)!important
 }
 
 .no-webp .-pc .step-image.-launch {
-    background-image: url(https://i.imgur.com/aGfJhsK.png)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-launch.fad711a8.png)!important
 }
 
 .no-webp .-pc .step-image.-config {
-    background-image: url(https://i.ibb.co/mS7jBqz/myteria1-ip.png)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-config.1ad94bed.png)!important
 }
 
 .no-webp .-pc .step-image.-server {
-    background-image: url(https://i.ibb.co/F3Vj25c/myteria2.png)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-server.18ff84e9.png)!important
 }
 
 .supports-webp .-pc .step-image.-download {
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.e6398d4d.webp)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.e6398d4d.webp)!important
 }
 
 .supports-webp .-pc .step-image.-launch {
-    background-image: url(https://i.imgur.com/aGfJhsK.png)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-launch.4f2bc02f.webp)!important
 }
 
 .supports-webp .-pc .step-image.-config {
-    background-image: url(https://i.ibb.co/mS7jBqz/myteria1-ip.png)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-config.aaefcc1c.webp)!important
 }
 
 .supports-webp .-pc .step-image.-server {
-    background-image: url(https://i.ibb.co/F3Vj25c/myteria2.png)!important
-}}
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-server.533b7d5b.webp)!important
+}
 
 .page.-howto.-pe .badge {
     color: #fc75cd;
@@ -774,35 +761,35 @@
 }
 
 .no-webp .-pe .step-image.-menu {
-    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-menu.f457db10.png)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-menu.f457db10.png)!important
 }
 
 .no-webp .-pe .step-image.-servers {
-    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-servers.0949cb9c.png)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-servers.0949cb9c.png)!important
 }
 
 .no-webp .-pe .step-image.-config {
-    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-config.e700d80e.png)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-config.e700d80e.png)!important
 }
 
 .no-webp .-pe .step-image.-server {
-    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-server.2ef88921.png)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-server.2ef88921.png)!important
 }
 
 .supports-webp .-pe .step-image.-menu {
-    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-menu.20ac4df5.webp)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-menu.20ac4df5.webp)!important
 }
 
 .supports-webp .-pe .step-image.-servers {
-    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-servers.b5d5de9a.webp)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-servers.b5d5de9a.webp)!important
 }
 
 .supports-webp .-pe .step-image.-config {
-    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-config.5c1606b7.webp)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-config.5c1606b7.webp)!important
 }
 
 .supports-webp .-pe .step-image.-server {
-    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-server.383513f9.webp)!important
+    background-image: url(/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-bedrock-server.383513f9.webp)!important
 }
 
 * {
@@ -893,8 +880,8 @@ body {
 
 /*# sourceMappingURL=main.ed7b51f7.chunk.css.map */
 /*
-     FILE ARCHIVED ON 22:51:13 May 04, 2024 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 22:45:43 Feb 23, 2025.
+     FILE ARCHIVED ON 15:05:59 Jul 17, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:14:42 Feb 25, 2025.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -902,13 +889,13 @@ body {
 */
 /*
 playback timings (ms):
-  captures_list: 0.848
-  exclusion.robots: 0.029
-  exclusion.robots.policy: 0.012
-  esindex: 0.013
-  cdx.remote: 63.942
-  LoadShardBlock: 791.945 (3)
-  PetaboxLoader3.datanode: 759.061 (4)
-  PetaboxLoader3.resolve: 136.337 (2)
-  load_resource: 181.47
+  captures_list: 0.89
+  exclusion.robots: 0.038
+  exclusion.robots.policy: 0.023
+  esindex: 0.016
+  cdx.remote: 220.044
+  LoadShardBlock: 1606.607 (3)
+  PetaboxLoader3.datanode: 1377.803 (4)
+  PetaboxLoader3.resolve: 331.309 (2)
+  load_resource: 159.94
 */
