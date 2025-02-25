@@ -104,7 +104,7 @@
     .icon.-header-navitem.-discord {
         width: 24px;
         height: 24px;
-        fill: #5c2e7d
+        fill: #240f3e
     }
 
     .icon.-header.-menu {
@@ -146,14 +146,14 @@
 
 .page.-home .content-badge {
     display: inline-block;
-    color: #edcb69;
+    color: #03fc2c;
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
     text-transform: uppercase;
     padding: 4px 6px;
     margin-bottom: 16px;
-    background: rgba(245,217,13,.2)
+    background: rgba(252,117,205,.2)
 }
 
 .page.-home .prompt {
@@ -223,19 +223,19 @@
 }
 
 .page.-home .option.-pc .option-badge {
-    background: #5c2e7d
+    background: #240f3e
 }
 
 .page.-home .option.-pc .option-text strong {
-    color: #5c2e7d
+    color: #240f3e
 }
 
 .page.-home .option.-pe .option-badge {
-    background: #f5d988
+    background: #fc75cd
 }
 
 .page.-home .option.-pe .option-text strong {
-    color: #f5d988
+    color: #fc75cd
 }
 
 @media screen and (min-width: 1800px) {
@@ -588,7 +588,7 @@
 
 .page.-howto.-pc .badge {
     color: #240f3e;
-    background: rgba(36,15,62,.24)
+    background: rgba(107,117,255,.24)
 }
 
 .page.-howto.-pc .page-title strong {
@@ -646,50 +646,13 @@
         background-size: 80vw 4vw
     }
 }
-.page.-howto.-pc .step-image:before {
-    content: "";
-    display: block;
-    width: 480px;
-    height: 24px;
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/window-frame.9315f841.svg);
-    background-size: contain
-}
 
-@media screen and (max-width: 920px) {
-    .page.-howto.-pc .step-image {
-        width:80vw;
-        height: 49vw;
-        background-position: center 4vw
-    }
-
-    .page.-howto.-pc .step-image:before {
-        width: 80vw;
-        height: 4vw;
-        background-size: 80vw 4vw
-    }
-}
 .no-webp .-pc .step-image.-download {
     background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.de3c2a44.png)!important
 }
 
 .no-webp .-pc .step-image.-launch {
-    background-image: url(https://i.imgur.com/aGfJhsK.png)!important
-}
-
-.no-webp .-pc .step-image.-config {
-    background-image: url(https://i.ibb.co/mS7jBqz/myteria1-ip.png)!important
-}
-
-.no-webp .-pc .step-image.-server {
-    background-image: url(https://i.ibb.co/F3Vj25c/myteria2.png)!important
-}
-
-.supports-webp .-pc .step-image.-download {
-    background-image: url(https://web.archive.org/web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-download.e6398d4d.webp)!important
-}
-
-.supports-webp .-pc .step-image.-launch {
-    background-image: url(https://i.imgur.com/aGfJhsK.png)!important
+    background-image: url(https://web.archive.org//web/20220717150559im_/https://mineteria.com/how-to-play/static/media/screen-desktop-launch.fad711a8.png)!important
 }
 
 .no-webp .-pc .step-image.-config {
@@ -718,7 +681,7 @@
 
 .page.-howto.-pe .badge {
     color: #edcb69;
-    background: rgba(252,117,205,.24)
+    background: rgba(245,217,136,.24)
 }
 
 .page.-howto.-pe .page-title strong {
@@ -735,12 +698,12 @@
 }
 
 .page.-howto.-pe .step:nth-child(2n) .step-content {
-    color: #5c2e7d;
-    background: #d9dbfc
+    color: #240f3e;
+    background: #5c2e7d
 }
 
 .page.-howto.-pe .step:nth-child(2n) .button.-step {
-    background: #5c2e7d
+    background: #240f3e
 }
 
 .page.-howto.-pe .step-image {
