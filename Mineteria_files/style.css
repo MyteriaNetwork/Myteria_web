@@ -72,13 +72,13 @@ nav {
     margin-right: auto;
 }
 
-#forum,
+#play,
 #store,
 #vote {
     padding: 0;
     margin: 0;
     float: left;
-    background: url(https://i.imgur.com/WeRJhuV.png);
+    background: url(https://i.imgur.com/hK5lKLP.png);
     width: 300px;
     height: 275px;
 }
